@@ -1,0 +1,73 @@
+@media (max-width: 1080px) {
+    .font-size{
+        font-size: 11px;
+    }
+    .margin-left{
+        margin-left: 0px !important;
+        width: 14px;
+    }
+    .margin-right{
+        margin-right: 0px !important;
+        width: 14px;
+
+    }
+    .widthheight{
+        width: 14px !important;
+        height: 12px !important;
+        margin-left: 8px;
+    }
+    .widthheighttwo{
+        width: 91px !important;
+        height: 30px !important;
+        margin-left: calc(0.75rem* calc(1 - var(--tw-space-x-reverse))) !important;
+    }
+    .icons{
+        width: 16px !important;;
+        height: 14px !important;;
+    }
+    .fontsizetwo{
+        font-size: 14px !important;
+        margin-left: calc(1rem* calc(1 - var(--tw-space-x-reverse))) !important;
+
+    }
+}
+
+@media (max-width: 790px) {
+    .font-size{
+        font-size: 11px;
+    }
+    .margin-left{
+        margin-left: 0px !important;
+        width: 14px;
+    }
+    .margin-right{
+        margin-right: 0px !important;
+        width: 14px;
+
+    }
+    .widthheight{
+        width: 12px !important;
+        height: 10px !important;
+        margin-left: 8px;
+    }
+    .widthheighttwo{
+        width: 86px !important;
+        height: 26px !important;
+        margin-left: calc(0.65rem* calc(1 - var(--tw-space-x-reverse))) !important;
+    }
+    .icons{
+        width: 14px !important;;
+        height: 12px !important;;
+    }
+    .fontsizetwo{
+        font-size: 12px !important;
+        margin-left: calc(0.5rem* calc(1 - var(--tw-space-x-reverse))) !important;
+
+    }
+}
+
+@media (max-width: 517px) {
+    .font-size{
+        display: none !important;
+    }
+}
