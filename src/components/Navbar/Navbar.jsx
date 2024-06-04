@@ -8,7 +8,7 @@ const Navbar = () => {
       }, []);
     
     return (
-        <nav className="bg-[#FFF200] border-gray-200 h-[48px]">
+        <nav className="bg-primary border-gray-200 h-[48px]">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-[0.6rem]">
                 <div to="/" className="flex items-center space-x-7 rtl:space-x-reverse">
                     <img
@@ -100,9 +100,9 @@ const Navbar = () => {
                         />
                     </svg>
                 </button>
-                <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+                <div className="hidden bg-white md:bg-transparent z-50 w-full md:block md:w-auto" id="navbar-default">
                     <ul
-                        className="fontsizetwo font-medium flex flex-col p-4 md:p-0 mt-4 border cursor-pointer border-gray-100 rounded-lg
+                        className="fontsizetwo font-medium flex flex-col p-4 md:p-0 mt-4  border cursor-pointer border-gray-100 rounded-lg
                          text-black md:flex-row space-x-8 rtl:space-x-reverse 
           md:mt-0 md:border-0"
                     >
