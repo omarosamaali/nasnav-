@@ -1,4 +1,5 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy,useEffect, useState } from 'react';
+import { getProducts } from './services/api';
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import SecondNavbar from './components/SecondNavbar/SecondNavbar'
@@ -8,6 +9,14 @@ import EcommerceSection12 from './pages/EcommerceSection12/EcommerceSection12';
 import Products from './pages/Products/Products';
 import Footer from './components/Footer/Footer'
 function App() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    getProducts().then((data) => {
+      setProducts(data);
+    });
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -19,7 +28,7 @@ function App() {
       </Suspense>
       {/* Component with Lazy Loading */}
       <EcommerceSection12 />
-      <Products />
+      <Products products={products} />
       <Footer />
     </>
   );

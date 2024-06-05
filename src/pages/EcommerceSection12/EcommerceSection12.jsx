@@ -8,12 +8,20 @@ import imageCartThree from "../../images/Group 329@2x.png";
 import imageCartFour from "../../images/Group 335@2x.png";
 import "./EcommerceSection.css";
 import img360 from "../../images/Group 577.png";
-
+import imageDefault from '../../images/Screenshot (84).png';
 export function EcommerceSection12() {
   const [count, setCount] = useState(0);
   const [cartItems, setCartItems] = useState([]); // State for cart items
   const [showCartDropdown, setShowCartDropdown] = useState(false); // State to show/hide cart dropdown
+  const [selectedImage, setSelectedImage] = useState(null);
 
+  const handleClick = (imageSrc) => {
+    setSelectedImage(imageSrc);
+  };
+
+  const handleClose = () => {
+    setSelectedImage(null);
+  };
   const increment = () => setCount(count + 1);
   const decrement = () => {
     if (count > 0) {
@@ -182,7 +190,7 @@ export function EcommerceSection12() {
           </button>
             </div>
           <img
-            src="https://moesportsnyc.com/cdn/shop/products/Blocked_Trefoil_Tee_Black_GR9740_21_model_540x.jpg?v=1634684696"
+            src={imageDefault}
             alt="pink blazer"
             className="responsive w-[568px] h-[568px] rounded-lg"
           />
@@ -205,18 +213,39 @@ export function EcommerceSection12() {
               />
             </svg>
 
-            <div className="">
-              <img src={imageCartOne} className=" h-[120px]" alt="" />
-            </div>
-            <div>
-              <img src={imageCartTwo} className=" h-[120px]" alt="" />
-            </div>
-            <div>
-              <img src={imageCartThree} className=" h-[120px]" alt="" />
-            </div>
-            <div>
-              <img src={imageCartFour} className=" h-[120px]" alt="" />
-            </div>
+                   <div>
+          <img
+            src={imageCartOne}
+            className="h-[120px]"
+            alt=""
+            onClick={() => handleClick(imageCartOne)}
+          />
+        </div>
+        <div>
+          <img
+            src={imageCartTwo}
+            className="h-[120px]"
+            alt=""
+            onClick={() => handleClick(imageCartTwo)}
+          />
+        </div>
+        <div>
+          <img
+            src={imageCartThree}
+            className="h-[120px]"
+            alt=""
+            onClick={() => handleClick(imageCartThree)}
+          />
+        </div>
+        <div>
+          <img
+            src={imageCartFour}
+            className="h-[120px]"
+            alt=""
+            onClick={() => handleClick(imageCartFour)}
+          />
+        </div>
+
             <svg
               className="w-10 h-10 font-normal text-gray-800  dark:text-white"
               aria-hidden="true"
