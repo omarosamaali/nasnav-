@@ -1,0 +1,33 @@
+.add-card-style{
+        padding: 9px;
+            border: 1px solid #e2e2e2;
+}
+
+.oneWidth{
+width: 358px !important;
+}
+
+@media (max-width:1600px) {
+.oneWidth {
+        width: 328px !important;
+    }
+.gap-here{
+    gap: 10px !important;
+}
+}
+
+@media (max-width:1536px) {
+    .oneWidth {
+        width: 288px !important;
+    }
+
+    .gap-here {
+        gap: 50px !important;
+    }
+}
+@media (max-width:768px) {
+    .oneWidth {
+        width: 100% !important;
+    }
+
+}

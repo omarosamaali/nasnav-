@@ -1,0 +1,24 @@
+.minus{
+        background: yellow;
+            padding: 3px;
+            font-size: 35px;
+            height: 34px;
+            width: 34px;
+            border-radius: 50%;
+            margin-left: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.plus{
+background: yellow;
+    padding: 3px;
+    font-size: 30px;
+    display: flex;
+    width:34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
