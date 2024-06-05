@@ -22,3 +22,57 @@ background: yellow;
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 1280px) {
+    .responsive{
+        width: 412px !important;
+        gap: 10px !important;
+    }
+    .widthCart{
+        width: 471px;
+    }
+    .widthHere{
+        width: 146%;
+
+    }
+    .fontsizeCart{
+        font-size: 1.175rem !important;
+        width: 300px !important;
+        line-height: 1.25rem !important;    
+    }
+}
+
+@media (max-width: 520px) {
+    .mobile{
+        display: flex !important;
+        justify-content: center !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .text-centerMobile{
+        text-align: center !important;
+    }
+    .rates{
+        display: flex;
+        justify-content: center;
+    }
+    .widthHere{
+        display: flex !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    }
+    .editcards{
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .editbuttons{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-derck{
+        display: flex;
+    flex-direction: column;
+    }
+}
