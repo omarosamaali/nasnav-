@@ -76,3 +76,9 @@ background: yellow;
     flex-direction: column;
     }
 }
+@media (max-width:450px) {
+    .responsive{
+        width: 280px !important;
+
+    }
+}
