@@ -1,13 +1,8 @@
 import React,{ useState, useEffect } from "react";
-import image from "../../images/Group 575@2x.png";
 import { Button, Rating, Typography } from "@material-tailwind/react";
 import { getProducts } from '../../services/api';
 
 import img360 from "../../images/Group 577.png";
-import adidasImage from "../../../public//images/Group 346.svg";
-import adidasImageTwo from "../../images/Group 583.png";
-import adidasImageThree from "../../images/Group 589.png";
-import adidasImageFour from "../../images/Group 597.png";
 import "./Products.css";
 export function Products() {
   const [products, setProducts] = useState([]);

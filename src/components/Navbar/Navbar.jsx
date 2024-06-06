@@ -12,12 +12,12 @@ const Navbar = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-[0.6rem]">
                 <div to="/" className="flex items-center space-x-7 rtl:space-x-reverse">
                     <img
-                        src="../../../public/images/Group 770.svg"
+                        src="../../images/Group 770.svg"
                         className="widthheight w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                         alt="Flowbite Logo"
                     />
                     <img
-                        src="../../../public/images/Group 769.svg"
+                        src="../../images/images/Group 769.svg"
                         className="widthheighttwo t-[9px] left-[432px] w-[116px] h-[30px] "
                         alt="Flowbite Logo"
                     />
@@ -112,7 +112,7 @@ const Navbar = () => {
                         >
                             {" "}
                             <img
-                                src="../../../public/images/Group 756.svg"
+                                src="../../images/images/Group 756.svg"
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />
@@ -125,7 +125,7 @@ const Navbar = () => {
                         >
                             {" "}
                             <img
-                                src="../../../public/images/Group 758.svg"
+                                src="../../images/images/Group 758.svg"
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />
@@ -137,7 +137,7 @@ const Navbar = () => {
                         >
                             {" "}
                             <img
-                                src="../../../public/images/Group 753.svg"
+                                src="../../images/images/Group 753.svg"
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />

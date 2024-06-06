@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import footerLogo from "../../../public/images/Group 1431.svg";
-import facebook from "../../../public/images/Group 1432.svg";
-import linedin from "../../../public/images/Group 1435.svg";
-import insta from "../../../public/images/Group 1433.svg";
-import twiteer from "../../../public/images/Group 1434.svg";
-import nasnavfooter from "../../../public/images/Group 1439.svg";
+import footerLogo from "../../images/Group 1431.svg";
+import facebook from "../../images/Group 1432.svg";
+import linedin from "../../images/Group 1435.svg";
+import insta from "../../images/Group 1433.svg";
+import twiteer from "../../images/Group 1434.svg";
+import nasnavfooter from "../../images/Group 1439.svg";
 import Rectangle from "../../images/Rectangle 586.png";
 import visa from "../../images/Group 1437.png";
 import payment from "../../images/Group 1438.png";
@@ -19,7 +19,7 @@ export function Footer() {
               <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
                 <span className="me-3 [&>svg]:h-4 [&>svg]:w-4">
                   <img
-                    src="../../../public/images/Group 1436.svg"
+                    src="../..//images/Group 1436.svg"
                     classNameName="220px"
                     alt="asd"
                   />

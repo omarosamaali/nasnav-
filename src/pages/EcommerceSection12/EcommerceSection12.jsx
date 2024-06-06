@@ -275,7 +275,7 @@ export function EcommerceSection12() {
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img
-                src="../../../public/images/Group 745.svg"
+                src="../../../images/Group 745.svg"
                 className="h-[47px] w-[60px]"
                 alt="Flowbite Logo"
               />

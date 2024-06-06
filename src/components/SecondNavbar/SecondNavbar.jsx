@@ -59,17 +59,17 @@ focus:border-blue-500 dark:bg-gray-700 placeholder:text-black placeholder:font-b
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <a href="#" className="flex py-2 px-3 text-black  rounded md:bg-transparent md:p-0" aria-current="page">
-                <img src="../../../public/images/Path 772.svg" className="w-[20px] h-[24px] mr-2" alt="" />
+                <img src="../../../images/Path 772.svg" className="w-[20px] h-[24px] mr-2" alt="" />
                 Cart</a>
             </li>
             <li>
               <a href="#" className="flex py-2 px-3 text-black  rounded md:bg-transparent md:p-0" aria-current="page">
-                <img src="../../../public/images/Path 771.svg" className="w-[20px] h-[24px] mr-2" alt="" />
+                <img src="../../../images/Path 771.svg" className="w-[20px] h-[24px] mr-2" alt="" />
                 Wishlist</a>
             </li>
             <li>
               <a href="#" className="flex py-2 px-3 text-black  rounded md:bg-transparent md:p-0" aria-current="page">
-                <img src="../../../public/images/Path 773.svg" className="w-[20px] h-[24px] mr-2" alt="" />
+                <img src="../../../images/Path 773.svg" className="w-[20px] h-[24px] mr-2" alt="" />
                 Login</a>
             </li>
           </ul>
@@ -78,7 +78,7 @@ focus:border-blue-500 dark:bg-gray-700 placeholder:text-black placeholder:font-b
 
         {/* Start Logo */}
         <a href="https://flowbite.com/" className="ml-[-171px] flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../../../public/images/Group 745.svg" className="h-[57px] w-[85px]" alt="Flowbite Logo" />
+          <img src="../../../images/Group 745.svg" className="h-[57px] w-[85px]" alt="Flowbite Logo" />
         </a>
         {/* End Logo */}
 
