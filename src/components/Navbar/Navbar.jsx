@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 import "./Navbar.css";
 import { initFlowbite } from 'flowbite';
-
+import images from '../../images/Group 770.svg';
+import imagesOne from '../../images/Group 756.svg';
+import imagesTwo from '../../images/Group 758.svg';
+import imagesThree from '../../images/Group 753.svg';
+import imageFour from '../../images/Group 769.svg'
 const Navbar = () => {
     useEffect(() => {
         initFlowbite();
@@ -10,14 +14,14 @@ const Navbar = () => {
     return (
         <nav className="bg-primary border-gray-200 h-[48px]">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-[0.6rem]">
-                <div to="/" className="flex items-center space-x-7 rtl:space-x-reverse">
+                <div className="flex items-center space-x-7 rtl:space-x-reverse">
                     <img
-                        src="../../images/Group 770.svg"
+                        src={images}
                         className="widthheight w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                         alt="Flowbite Logo"
                     />
                     <img
-                        src="../../images/images/Group 769.svg"
+                        src={imageFour}
                         className="widthheighttwo t-[9px] left-[432px] w-[116px] h-[30px] "
                         alt="Flowbite Logo"
                     />
@@ -106,43 +110,40 @@ const Navbar = () => {
                          text-black md:flex-row space-x-8 rtl:space-x-reverse 
           md:mt-0 md:border-0"
                     >
-                        <li
-                            to="/services"
+                        <div
                             className="fontsizetwo py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-800 md:p-0 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent flex items-center"
                         >
                             {" "}
                             <img
-                                src="../../images/images/Group 756.svg"
+                                src={imagesOne}
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />
                             Contact Us
-                        </li>
+                        </div>
 
-                        <li
-                            to="/services"
+                        <div
                             className="fontsizetwo py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-800 md:p-0 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent flex items-center"
                         >
                             {" "}
                             <img
-                                src="../../images/images/Group 758.svg"
+                                src={imagesTwo}
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />
                             Track Order
-                        </li>
-                        <li
-                            to="/services"
+                        </div>
+                        <div
                             className="fontsizetwo py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-800 md:p-0 md:dark:hover:text-gray-800 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent flex items-center"
                         >
                             {" "}
                             <img
-                                src="../../images/images/Group 753.svg"
+                                src={imagesThree}
                                 className="icons mr-1.5 w-[24px] h-[18px] left-[376px] top-[15px] cursor-pointer"
                                 alt="Flowbite Logo"
                             />
                             Find A Store
-                        </li>
+                        </div>
                     </ul>
                 </div>
             </div>

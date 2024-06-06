@@ -28,7 +28,7 @@ background: yellow;
         gap: 10px !important;
     }
     .widthCart{
-        width: 471px;
+        width: 431px;
     }
     .widthHere{
         width: 146%;
@@ -81,4 +81,14 @@ background: yellow;
         width: 280px !important;
 
     }
+    .Complete{
+        font-size: 13px !important;
+    }
+    .flex-der{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.hscreen{
+    height: 103vh;
 }

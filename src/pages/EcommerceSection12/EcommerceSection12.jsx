@@ -67,7 +67,7 @@ export function EcommerceSection12() {
         items-center w-full md:inset-0 max-h-full"
             >
               <div className="ml-auto flex relative w-full max-w-2xl max-h-full">
-                <div className="w-[475px] ml-auto relative h-screen bg-white shadow dark:bg-gray-700">
+                <div className="w-[475px] ml-auto relative hscreen bg-white shadow dark:bg-gray-700">
                   <div className="flex items-center justify-between p-4 md:p-5 rounded-t dark:border-gray-600">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-white"></h3>
                     <button
@@ -154,16 +154,16 @@ export function EcommerceSection12() {
                       LE
                     </p>
                   </div>
-                  <div className="my-2 flex justify-center w-full items-center gap-3">
+                  <div className="flex-der my-2 flex justify-center w-full items-center gap-3">
                     <Button
                       color="gray"
-                      className="rounded-full bg-primary text-black h-[54px] w-[196px] text-lg"
+                      className="Complete rounded-full bg-primary text-black h-[54px] w-[196px] text-lg"
                     >
                       Review Card
                     </Button>
                     <Button
                       color="gray"
-                      className="rounded-full bg-secondary h-[54px] w-[196px] text-lg"
+                      className="Complete rounded-full bg-secondary h-[54px] w-[196px] text-lg"
                       onClick={() => {
                         /* Handle checkout logic */
                       }}
